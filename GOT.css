@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+body audio{
+    display: none;
+}
+
+ .preloader{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background: url(giphy.gif) no-repeat center;
+    background-size: cover;
+    position: fixed;
+    z-index: 100;
+} 
+
+.main{
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+
+.main .nav {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    color: wheat;
+    padding: 10px;
+    font-size: 30px;
+    z-index: 6;
+}
+
+.main .nav img{
+    width: 480px;
+    
+}
+
+.main .nav i{
+    cursor: pointer;
+    font-size: 40px;
+}
+
+
+.main .nav .menu{
+    background-color: rgba(255, 255, 255, 0.383);
+    position: fixed;
+    height: 1000%;
+    width: 40%;
+    top: 0;
+    right: -40%;
+    backdrop-filter: blur(10px);
+    z-index: 10;
+
+}
+
+.main .nav .menu img{
+    color: rgba(255, 255, 255, 0.383);
+    position: relative;
+    height: 40px;
+    width: 40px;
+    right: -530px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.main .nav .menu h4{
+    color: rgba(9, 9, 9, 0.68);
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 30px;
+    margin-top: 5px;
+       
+}
+
+.main .nav .menu span{
+    cursor: pointer;
+}
+
+
+.main .page1 {
+    display: flex;
+    position: relative;
+    background-image: url(Game\ Of\ Thrones\ Season\ Wallpaper\ HD\ Movie\ Poster.jpg);
+    height: 100vh;
+    width: 100%; 
+    margin-top: -82px;
+    background-position: center;
+    background-size: cover;
+    z-index: 5;
+
+    /* align-items: center;
+    justify-content: center; */
+}
+
+/* .main .page1 img{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+
+} */
+
+.main .page1 h1{
+    background-color: transparent;
+    color: wheat;
+    position: absolute;
+    transform: translate(50%,50%);
+    margin-top: 36%;
+    z-index: 7;
+}
+
+
+/* page2 winterfell house stark */
+
+.main .page2 {
+    background-color: black;
+    background-image: url(house\ of\ starks.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+
+}
+
+.page2 img{
+    position: absolute;
+    width: 20%;
+    height: 100vh;
+}
+
+.page2 .mambers{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    position: relative;
+    transform: translate(90%);
+}
+
+
+.page2 .mambers .eddard-stark img{
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: 25px;
+    height: 100px;
+    width: 100px;
+    
+}
+
+.page2 .mambers .eddard-stark{
+    position: relative;
+}
+
+
+.page2 .mambers .eddard-stark::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: red;
+
+
+}
+
+.page2 .mambers .eddard-stark img:hover{
+    transform: scale(1.5);
+}
+
+
+.main .page2 .mambers .robb-stark img{
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: 150px;
+    height: 100px;
+    width: 100px;
+}    
+
+.page2 .mambers .robb-stark img:hover{
+    transform: scale(1.5);
+}
+
+
+.main .page2 .mambers .sansa-stark img{
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: 270px;
+    height: 100px;
+    width: 100px;
+}  
+
+.page2 .mambers .sansa-stark img:hover{
+    transform: scale(1.5);
+}
+
+.main .page2 .mambers .arya-stark img{
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: 390px;
+    height: 100px;
+    width: 100px;
+    
+}  
+
+.page2 .mambers .arya-stark img:hover{
+    transform: scale(1.5);
+}
+
+
+
+.main .page2 .mambers .bran-stark img{
+    cursor: pointer;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 515px;
+    height: 100px;
+    width: 100px;
+    
+}  
+
+.page2 .mambers .bran-stark img:hover{
+    transform: scale(1.5);
+}
+
+
+
+.main .page2 .mambers .john-snow img{
+    cursor: pointer;
+    border-radius: 50%;
+    margin-top: 640px;
+    height: 100px;
+    width: 100px;
+    
+}  
+
+.page2 .mambers .john-snow img:hover{
+    transform: scale(1.5);
+}
+
